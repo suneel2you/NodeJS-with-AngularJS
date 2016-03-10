@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-/* or */
+/* or 
 app.get('/', function(req, res){
   res.send('hello world');
 });
@@ -44,7 +44,7 @@ app.post('/register', function(req, res)
 			console.log("Successfully Registered.");
 		}
 	});
-});
+});*/
 app.use('/controllers',  express.static(__dirname + '/controllers'));
 app.use('/views',  express.static(__dirname + '/views'));
     

@@ -9,7 +9,10 @@ install node
 Step3:
 Install npm files
 
-Step4: 
+Step4:  
+Database configurations in dbconf.js file.
+
+Step5:
 run the main file
 
 
